@@ -6,7 +6,7 @@
 #include <cmath>
 using namespace std;
 
-int binarySearch(vector<int> a, int l, int r, int x)
+bool binarySearch(vector<int> a, int l, int r, int x)
 {
 	while (l <= r)
 	{
